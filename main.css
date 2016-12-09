@@ -1,0 +1,27 @@
+body {
+	font-family: 'Roboto Condensed';
+	background-color: lightgrey;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+main {
+	width: 900px;
+	background-color: white;
+	padding: 20px;
+}
+
+.image-wrapper {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	overflow: hidden;
+	border-radius: 50%;
+	
+}
+
+.image-wrapper img {
+	width: 100%;
+}
